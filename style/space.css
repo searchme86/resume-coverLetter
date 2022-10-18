@@ -82,8 +82,13 @@
 }
 
 .workItem__description > li{
-    margin:0 0 0.5rem 0;
+    margin:0 0 1.25rem 0;
 }
+
+.workItem__description > li:last-child{
+    margin-bottom:0;
+}
+
 .workItem__solution--split{
     margin:0.3125rem 0 0 1.0625rem;
 }
@@ -123,7 +128,7 @@
 
 
 .dot > li{
-    margin:0 0 0.5rem 0;
+    margin:0.625rem 0 0.5rem 0;
     padding:0 0 0 0.9375rem;
     box-sizing:border-box;
 }
@@ -160,6 +165,11 @@
     margin-bottom:0;
 }
 
+.resume-category{
+    display:block;
+    margin:0 0 0.625rem 0;
+}
+
 .resume-summary,
 .resume-description{
     display:block;
@@ -172,4 +182,13 @@
 
 .resume-content > li:last-child{
     margin-bottom:0;
+}
+
+
+
+
+
+
+.--Start{
+    text-indent:10px;
 }

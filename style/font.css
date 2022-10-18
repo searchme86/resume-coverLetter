@@ -41,7 +41,7 @@
 }
 
  .workItem__description{
-    font-style: italic;
+    font-style: initial;
  }
 
 .workItem__solution--split{
@@ -51,4 +51,13 @@
 .workItem__category{
     font-weight: initial;
     font-size:1rem;
+}
+
+
+.resume-category{
+    font-size:1.25rem;
+}
+
+.resume-summary{
+    font-size:1.0625rem;
 }
