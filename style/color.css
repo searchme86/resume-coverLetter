@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.--title{
+    color:#3c78d8;
+}
+
+.--date, .--des{
+    color:gray;
+}
+
+.--period{
+    color:#17a2b8;
+}
+
+.--link{
+    color:#007bff;
+}
+
+.--spec{
+    color:#6c757d;
+}
+
+.introduce .section__title,
+.skills .section__title{
+    border-bottom:0.0625rem solid gray;
+}
+
+.updated .badge{
+    background:#6c757d;
+    color:#fff;
+}
+
+.workItem__status.badge > li{
+    background:#17a2b8;
+    color:#fff;
+}
+
+.workItem__spec.badge > li{
+    background:#6c757d;
+    color:#fff;
+}
+
+.section__content > li{
+    border-top:0.0625rem solid gray;
+   }

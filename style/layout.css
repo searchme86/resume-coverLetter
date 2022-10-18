@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    margin:1.8rem 0 0 0;
+}
+
+.container{
+    max-width:1024px;
+    margin:0 auto;
+    padding:0 2.5rem 1.25rem 2.5rem;
+}
+
+.divided{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.section__left{
+    width:35%;
+}
+
+.who{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section__right{
+    width:65%;
+}
+
+.updated{
+    text-align:left;
+}
+
+.updated .badge{
+    position:relative;
+    vertical-align: top;
+    top:0.125rem;
+}
+
+.badge > li{
+    display:inline-block;
+}

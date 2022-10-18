@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.section__title{
+   font-size:1.875rem;
+}
+
+.skills .section__left > strong{
+    font-size:1.25rem;
+}
+
+.message{
+    font-size:1.2rem;
+}
+
+.contact > li{
+    font-size:1.6rem;
+}
+
+.updated .badge,
+.workItem__status.badge > li,
+.workItem__spec.badge > li{
+    line-height:1;
+    font-size:0.8rem;
+    font-weight:700;
+    white-space:nowrap;
+    text-align:center;
+}
+
+.workItem__date{
+    font-size:1rem;
+}
+
+.workItem__topic workItem__titlePlace,
+.workItem__topic .workItem__topic--split{
+    font-size:1rem;
+}
+
+.sub-dot > strong,
+.workItem__titlePlace{
+    font-weight: initial;
+}
+
+ .workItem__description{
+    font-style: italic;
+ }
+
+.workItem__solution--split{
+    display:block;
+}
+
+.workItem__category{
+    font-weight: initial;
+    font-size:1rem;
+}

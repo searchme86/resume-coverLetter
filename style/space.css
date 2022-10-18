@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+.message{
+    margin:1rem 0 0 0;
+}
+
+.initial-space{
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.unit{
+    margin:0 0 1.875rem 0;
+}
+
+.who{
+    padding:0.9375rem 0 0.9375rem 0;
+    box-sizing:border-box;
+}
+
+.section__title{
+    line-height:1;
+    padding:0 0 0.5rem 0;
+    box-sizing:border-box;
+}
+
+.introduce .section__content,
+.skills .section__content{
+    padding:1.25rem 0 0 0;
+    box-sizing:border-box;
+}
+
+.skills .section__left > strong{
+    display:inline-block;
+    padding:0 0 0 1.875rem;
+    box-sizing:border-box;
+}
+
+.contact > li{
+    margin:0 0 0.5rem 0;
+}
+
+.section__content > li{
+    padding:1.125rem 0 1.0625rem 0;
+}
+
+.section__left{
+    padding:0 1.875rem 0 1.875rem;
+}
+
+.updated{
+    margin:2rem 0 0 0;
+}
+
+.updated .badge{
+    padding:0.125rem 0.1875rem;
+}
+
+.workItem__status.badge > li,
+.workItem__spec.badge > li{
+    padding:0.25rem 0.3125rem;
+    margin:0 0 0.375rem 0;
+    box-sizing:border-box;
+}
+
+.workItem__date{
+    display:inline-block;
+    margin:0 0 0.5rem 0;
+}
+
+.workItem__topic {
+   margin:0 0 0.75rem 0;
+}
+
+.workItem__topic .workItem__topic--split{
+    display:inline-block;
+    margin:0 0 0 0.25rem;
+}
+
+.workItem__description{
+    margin:0 0 0.5rem 0;
+}
+
+.workItem__description > li{
+    margin:0 0 0.5rem 0;
+}
+.workItem__solution--split{
+    margin:0.3125rem 0 0 1.0625rem;
+}
+
+.workItem__experience > li{
+    margin:0 0 0.5rem 0;
+    padding:0.625rem 0 0 0;
+}
+
+.workItem__experience > li:first-child{
+    padding-top:0;
+}
+
+.workItem__position > li{
+    margin:0 0 1.625rem 0;
+}
+
+.workItem__issue{
+    margin:0 0 0.5rem 0;
+    padding:0 0 0 0.9375rem ;
+    box-sizing:border-box;
+}
+
+.workItem__solution{
+    padding:0 0 0 1.5rem;
+    box-sizing:border-box;
+}
+
+.workItem__category{
+    display:inline-block;
+    margin:1rem 0 0.5rem 0;
+}
+
+.workItem__spec{
+    margin:0 0 1.375rem 0 ;
+}
+
+
+.dot > li{
+    margin:0 0 0.5rem 0;
+    padding:0 0 0 0.9375rem;
+    box-sizing:border-box;
+}
+
+.each-dot{
+    position:relative;
+    margin:0 0 0 0;
+    padding:0 0 0 0.9375rem;
+    box-sizing:border-box;
+}
+
+.sub-dot{
+    margin:0.5rem 0 0.5rem 2.125rem;
+}
+
+.sub-dot > li{
+    margin:0 0 0.5rem 0 ;
+}
+
+.base-dot{
+    margin:0.5rem 0 0.5rem 2rem;
+}
+
+.base-dot>li{
+    margin:0.5rem 0 0.5rem 0;
+}
+
+.alert-message > li{
+    margin:0 0 0.625rem 0 ;
+    line-height: 1.2;
+}
+
+.alert-message > li:last-child{
+    margin-bottom:0;
+}

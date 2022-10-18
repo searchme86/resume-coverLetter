@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@media (max-width:890px){
+    .workItem__topic .workItem__place{
+        display:block;
+    }
+}
+
+@media (max-width:660px) {
+    .who .message{
+        margin:1.875rem 0 0 0;
+    }
+
+    .divided{
+        display:block;
+    }
+    .section__left{
+        padding:0;
+        margin:0 0 1.875rem 0;
+        width:100%;
+    }
+
+    .skills .section__left>strong{
+        padding:0;
+        margin:0 0 2.5rem 0;
+    }
+
+    .section__right{
+        width:100%;
+    }
+
+    .sub-dot--split{
+        display:block;
+    }
+}
+
+@media (max-width:500px) {
+    .who .message{
+        margin:1.875rem 0 0 0;
+    }
+
+    .section__title{
+        font-size:2.1875rem;
+    }
+
+    .divided{
+        display:block;
+    }
+    .section__left{
+        padding:0;
+        margin:0 0 1.875rem 0;
+        width:100%;
+    }
+    .section__right{
+        width:100%;
+    }
+
+    .dot-list--split{
+        display:block;
+    }
+
+    .skills .section__left>strong{
+        padding:0;
+        margin:0 0 2.5rem 0;
+    }
+
+    .workItem__topic strong{
+        font-size:1.0625rem;
+    }
+
+    .workItem__topic .workItem__topic--split{
+        display:block;
+        font-size:1.0625rem;
+    }
+
+    .workItem__topic .workItem__place{
+        display:block;
+        margin:0.3125rem 0 0 0;
+    }
+
+    .workItem__topic .workItem__role{
+        display:block;
+        margin:0.3125rem 0 0 0;
+    }
+
+    .workItem__subChecklist > li{
+        font-size:0.9375rem;
+    }
+
+    .sub-dot--split{
+        display:block;
+    }
+}
